@@ -1,0 +1,146 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --colors-1:rgba(225, 237, 230, 1);
+    --colors-2:rgba(89, 141, 102, 1);
+}
+.headerDiv{
+    display: grid;
+    
+}
+.headerMinDiv{
+    background: var(--colors-1);
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-top: 3px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.headerIcons{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 20px;
+    line-height: 23.48px;
+    cursor: default;
+}
+.hedIcons{
+    width: 35px;
+    height: 35px;
+    cursor: default;
+}
+.hedTitles{
+    font-weight: 500;
+    color: var(--colors-2);
+}
+.headerInfo{
+    cursor: pointer;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.hedProduct{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+.hedProduct:hover{
+    color: rgba(89, 141, 102, 1);
+}
+.hedProduct:focus{
+    transition: 0.3s;
+}
+.hedInfo{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+.hedInfo:hover{
+    color: rgba(89, 141, 102, 1);
+}
+.hedAbout{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+.hedAbout:hover{
+    color: rgba(89, 141, 102, 1);
+}
+.headerBasket{
+    cursor: pointer;
+    display: flex;
+    align-items: center
+}
+.backetInfo{
+    display: flex;
+    background: var(--colors-2);
+    border-radius: 50px;
+    color: #fff;
+    margin-left: 20px;
+    justify-content: center;
+    margin-top: -3px;
+    margin-right: -37px;
+    width: 22px;
+}
+.backetInfo:hover{
+    transition: 0.3s;
+    background: black;
+    color: rgba(89, 141, 102, 1);
+}
+.backetImg{
+    height: 22px;
+    width: 22px;
+}
+.headerHouse{
+    margin-top: 100px;
+    padding-left: 165px;
+    padding-right: 165px;
+    height: 620px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.headerHouseTitles{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.HouseTitles{
+    font-weight: 500;
+    color: rgba(44, 45, 53, 1);
+    font-size: 60px;
+    cursor: default;
+}
+.HouseText{
+    margin-top: -280px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(134, 146, 139, 1);
+    width: 530px;
+    cursor: default;
+}
+.HouseButton{
+    border:1px solid var(--colors-2);
+    margin-top: -200px;
+    width: 200px;
+    height: 65px;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--colors-2);
+    background: none;
+    cursor: pointer;
+}
+.HouseButton:hover{
+    transition: 0.3s;
+    color: #fff;
+    background: var(--colors-2);
+}
+.HouseButton:focus{
+    transition: 0.3s;
+    background: var(--colors-1);
+    color: var(--colors-2);
+}

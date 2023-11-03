@@ -1,0 +1,363 @@
+.EnglandDiv{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 800px 800px;
+}
+/* England cards1 */
+.EnglandCard1{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(225, 237, 230, 1);
+    width: 310px;
+    height: 730px;
+}
+.EnglandCard1Text{
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard1Titles{
+    margin-top: -5px;
+    font-size: 30px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard1Text2{
+    margin-top: -30px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard1result{
+    cursor: default;
+    font-size: 24px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.EnglandCard1Button{
+    width: 310px;
+    cursor: pointer;
+    color: rgba(89, 141, 102, 1);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: 1px solid rgba(89, 141, 102, 1);
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+.EnglandCard1Button:hover{
+    transition: 0.3s;
+    color: #fff;
+    background: var(--colors-2);
+}
+.EnglandCard1Button:focus{
+    transition: 0.3s;
+    background: var(--colors-2);
+    color: var(--colors-1);
+}
+
+
+/* England cards2 */
+.EnglandCard2{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(225, 237, 230, 1);
+    width: 310px;
+    height: 730px;
+}
+.EnglandCard2Text{
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard2Titles{
+    margin-top: -5px;
+    font-size: 30px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard2Text2{
+    margin-top: -30px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard2result{
+    cursor: default;
+    font-size: 24px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.EnglandCard2Button{
+    width: 310px;
+    cursor: pointer;
+    color: rgba(89, 141, 102, 1);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: 1px solid rgba(89, 141, 102, 1);
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+.EnglandCard2Button:hover{
+    transition: 0.3s;
+    color: #fff;
+    background: var(--colors-2);
+}
+.EnglandCard2Button:focus{
+    transition: 0.3s;
+    background: var(--colors-2);
+    color: var(--colors-1);
+}
+
+
+/* England cards3 */
+.EnglandCard3{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(225, 237, 230, 1);
+    width: 310px;
+    height: 730px;
+}
+.EnglandCard3Text{
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard3Titles{
+    margin-top: -5px;
+    font-size: 30px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard3Text2{
+    margin-top: -30px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard3result{
+    cursor: default;
+    font-size: 24px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.EnglandCard3Button{
+    width: 310px;
+    cursor: pointer;
+    color: rgba(89, 141, 102, 1);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: 1px solid rgba(89, 141, 102, 1);
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+.EnglandCard3Button:hover{
+    transition: 0.3s;
+    color: #fff;
+    background: var(--colors-2);
+}
+.EnglandCard3Button:focus{
+    transition: 0.3s;
+    background: var(--colors-2);
+    color: var(--colors-1);
+}
+
+
+/* England cards4 */
+.EnglandCard4{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(225, 237, 230, 1);
+    width: 310px;
+    height: 730px;
+}
+.EnglandCard4Text{
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard4Titles{
+    margin-top: -5px;
+    font-size: 30px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard4Text2{
+    margin-top: -30px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard4result{
+    cursor: default;
+    font-size: 24px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.EnglandCard4Button{
+    width: 310px;
+    cursor: pointer;
+    color: rgba(89, 141, 102, 1);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: 1px solid rgba(89, 141, 102, 1);
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+.EnglandCard4Button:hover{
+    transition: 0.3s;
+    color: #fff;
+    background: var(--colors-2);
+}
+.EnglandCard4Button:focus{
+    transition: 0.3s;
+    background: var(--colors-2);
+    color: var(--colors-1);
+}
+
+
+/* England cards5 */
+.EnglandCard5{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(225, 237, 230, 1);
+    width: 310px;
+    height: 730px;
+}
+.EnglandCard5Text{
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard5Titles{
+    margin-top: -5px;
+    font-size: 30px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard5Text2{
+    margin-top: -30px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard5result{
+    cursor: default;
+    font-size: 24px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.EnglandCard5Button{
+    width: 310px;
+    cursor: pointer;
+    color: rgba(89, 141, 102, 1);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: 1px solid rgba(89, 141, 102, 1);
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+.EnglandCard5Button:hover{
+    transition: 0.3s;
+    color: #fff;
+    background: var(--colors-2);
+}
+.EnglandCard5Button:focus{
+    transition: 0.3s;
+    background: var(--colors-2);
+    color: var(--colors-1);
+}
+
+
+/* England cards6*/
+.EnglandCard6{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(225, 237, 230, 1);
+    width: 310px;
+    height: 730px;
+}
+.EnglandCard6Text{
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard6Titles{
+    margin-top: -5px;
+    font-size: 30px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard6Text2{
+    margin-top: -30px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard6result{
+    cursor: default;
+    font-size: 24px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.EnglandCard6Button{
+    width: 310px;
+    cursor: pointer;
+    color: rgba(89, 141, 102, 1);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: 1px solid rgba(89, 141, 102, 1);
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+.EnglandCard6Button:hover{
+    transition: 0.3s;
+    color: #fff;
+    background: var(--colors-2);
+}
+.EnglandCard6Button:focus{
+    transition: 0.3s;
+    background: var(--colors-2);
+    color: var(--colors-1);
+}
