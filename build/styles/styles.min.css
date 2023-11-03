@@ -1,0 +1,2566 @@
+body::-webkit-scrollbar {
+    width: 12px;               /* ширина scrollbar */
+  }
+  body::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);        /* цвет дорожки */
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: rgba(89, 141, 102, 1);    /* цвет плашки */
+    border-radius: 20px;       /* закругления плашки */
+    border: 3px solid rgba(225, 237, 230, 1);  /* padding вокруг плашки */
+}
+.basketDiv{
+    display: flex;
+    min-height: 400px;
+    width: 600px;
+    margin-top:-800px;
+    flex-direction: column;
+    z-index: 2;
+    transform: translateX(600px);
+    transition: 0.3s;
+    position:fixed;
+}
+.basketNet{
+    border: 2px solid rgba(89, 141, 102, 1);
+    background: linear-gradient(rgba(225, 237, 230, 1), rgba(89, 141, 102, 1));
+    display: flex;
+    justify-content: space-between;
+}
+.basketNeaTitles{
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.BtnBasketNo{
+    cursor: pointer;
+    margin-top: 20px;
+    padding-right: 20px;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 20px;
+    background: none;
+    border: none;
+}
+.BtnBasketNo:hover{
+    transition: 0.3s;
+    color: red;
+}
+.basketNeaTitles:hover{
+    transition: 0.3s;
+    color: rgba(89, 141, 102, 1);
+}
+
+.basketProduct{
+    margin-bottom: -5px;
+    display: flex;
+    min-height: 800px;
+    padding-top: 20px;
+    overflow-y:scroll;
+    border: 2px solid rgba(89, 141, 102, 1);
+    background: linear-gradient(rgba(225, 237, 230, 1) 90%,rgba(89, 141, 102, 1));
+    flex-direction: column;
+    max-height: 800px;
+}
+.basketProduct::-webkit-scrollbar {
+    width: 12px;               /* ширина scrollbar */
+  }
+  .basketProduct::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);        /* цвет дорожки */
+  }
+  .basketProduct::-webkit-scrollbar-thumb {
+    background-color: rgba(89, 141, 102, 1);    /* цвет плашки */
+    border-radius: 20px;       /* закругления плашки */
+    border: 3px solid rgba(225, 237, 230, 1);  /* padding вокруг плашки */
+}
+.basketDalie{
+    border: 2px solid rgba(89, 141, 102, 1);
+    display: flex;
+    background: linear-gradient(rgba(225, 237, 230, 1), rgba(89, 141, 102, 1));
+}
+.BasketDalieTitles{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight:500;
+    cursor: pointer;
+    width: 156px;
+    padding: 5px;
+    border: 1px solid rgb(89, 141, 102);
+}
+.BasketDalieTitles:hover{
+    transition: 0.3s;
+    color: #fff;
+    background: rgba(89, 141, 102, 1);
+}
+
+.basketMainDiv{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.footerDiv{
+    border-top: 1px solid #000;
+    justify-content: space-between;
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-top: 40px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background: rgba(225, 237, 230, 1);
+}
+/* block1 */
+.footerBlock1{
+
+    cursor: default;
+}
+.footer-imgBlock1{  
+    width: 35px;
+    height: 35px;
+}
+.footerMin1{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.footerMin2{
+   min-width: 300px;
+}
+.footer-BLock1Title1{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(89, 141, 102, 1);
+}
+.footer-BLock1Title2{
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    font-size: 20px;
+}
+.footer-BLock1Title3{
+    cursor: pointer;
+    margin-top: -15px;
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+}
+.footer-BLock1Title3:hover{
+    color: rgba(89, 141, 102, 1);
+}
+/* block2 */
+.footerBlock2{
+    display: flex;
+    padding-right: 150px;
+}
+.footer2Ul1{
+    list-style: none;
+}
+.footerUlTitles1{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+}
+.footerUlTitles1:hover{
+   color: rgba(89, 141, 102, 1);
+}
+.footerFr{
+    cursor: pointer;
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+.footerFr:hover{
+    color:rgba(89, 141, 102, 1);
+}
+.footerGr{
+    cursor: pointer;
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.footerGr:hover{
+    color:rgba(89, 141, 102, 1);
+}
+.footerEd{
+    cursor: pointer;
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.footerEd:hover{
+    color:rgba(89, 141, 102, 1);
+}
+.footer2Ul2{
+    list-style: none;
+}
+.footerUlTitles2{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+}
+.footerUlTitles2:hover{
+    color:rgba(89, 141, 102, 1);
+}
+.footerFr1{
+    cursor: pointer;
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.footerFr1:hover{
+    color:rgba(89, 141, 102, 1);
+}
+.footerGr1{
+    cursor: pointer;
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;   
+}
+.footerGr1:hover{
+    color:rgba(89, 141, 102, 1);
+}
+.footer2Ul3{
+    list-style: none;
+}
+.footerUlTitles3{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+}
+.footerUlTitles3:hover{
+    color:rgba(89, 141, 102, 1);
+}
+.footerFr2{
+    cursor: pointer;
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.footerFr2:hover{
+    color:rgba(89, 141, 102, 1);
+}
+.footerGr2{
+    cursor: pointer;
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;   
+}
+.footerGr2:hover{
+    color:rgba(89, 141, 102, 1);
+}
+/* block3 */
+.footerBlock3{
+    padding-top: 20px;
+    padding-right: 180px;
+}
+.footerMin3{
+    display: flex;
+    gap: 30px;
+}
+.footerMinImg1{
+    width: 18px;
+    height: 18px;
+}
+.footerMinImg2{
+    width: 18px;
+    height: 18px;
+}
+.footerMinImg3{
+    width: 18px;
+    height: 18px;
+}
+.footerBlock3Titles{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(134, 146, 139, 1);
+}
+.footerBlock3Titles1{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(134, 146, 139, 1);
+}
+.footerBlock3Titles:hover{
+    color: rgba(89, 141, 102, 1);
+}
+.footerBlock3Titles1:hover{
+    color: rgba(89, 141, 102, 1);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --colors-1:rgba(225, 237, 230, 1);
+    --colors-2:rgba(89, 141, 102, 1);
+}
+.headerDiv{
+    display: grid;
+    
+}
+.headerMinDiv{
+    background: var(--colors-1);
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-top: 3px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.headerIcons{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 20px;
+    line-height: 23.48px;
+    cursor: default;
+}
+.hedIcons{
+    width: 35px;
+    height: 35px;
+    cursor: default;
+}
+.hedTitles{
+    font-weight: 500;
+    color: var(--colors-2);
+}
+.headerInfo{
+    cursor: pointer;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.hedProduct{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+.hedProduct:hover{
+    color: rgba(89, 141, 102, 1);
+}
+.hedProduct:focus{
+    transition: 0.3s;
+}
+.hedInfo{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+.hedInfo:hover{
+    color: rgba(89, 141, 102, 1);
+}
+.hedAbout{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+.hedAbout:hover{
+    color: rgba(89, 141, 102, 1);
+}
+.headerBasket{
+    cursor: pointer;
+    display: flex;
+    align-items: center
+}
+.backetInfo{
+    display: flex;
+    background: var(--colors-2);
+    border-radius: 50px;
+    color: #fff;
+    margin-left: 20px;
+    justify-content: center;
+    margin-top: -3px;
+    margin-right: -37px;
+    width: 22px;
+}
+.backetInfo:hover{
+    transition: 0.3s;
+    background: black;
+    color: rgba(89, 141, 102, 1);
+}
+.backetImg{
+    height: 22px;
+    width: 22px;
+}
+.headerHouse{
+    margin-top: 100px;
+    padding-left: 165px;
+    padding-right: 165px;
+    height: 620px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.headerHouseTitles{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.HouseTitles{
+    font-weight: 500;
+    color: rgba(44, 45, 53, 1);
+    font-size: 60px;
+    cursor: default;
+}
+.HouseText{
+    margin-top: -280px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(134, 146, 139, 1);
+    width: 530px;
+    cursor: default;
+}
+.HouseButton{
+    border:1px solid var(--colors-2);
+    margin-top: -200px;
+    width: 200px;
+    height: 65px;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--colors-2);
+    background: none;
+    cursor: pointer;
+}
+.HouseButton:hover{
+    transition: 0.3s;
+    color: #fff;
+    background: var(--colors-2);
+}
+.HouseButton:focus{
+    transition: 0.3s;
+    background: var(--colors-1);
+    color: var(--colors-2);
+}
+
+/* create Card the Backet */
+/* CreateEngland cards1 */
+.CreateEnglandCard1{
+    width: 550px;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+}
+.CreateEnglandCard1Img{
+    width: 100px;
+    height: 100px;
+
+}
+.CreateEnglandCard1Titles{
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 23px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateEnglandCard1Text2{
+    margin-top: 30px;
+    margin-left: -122px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateEnglandCard1result{
+    margin-top: -5px;
+    margin-left: 112px;
+    cursor: default;
+    font-size: 23px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.CreateEnglandCard1Button{
+    margin-left: 10px;
+    margin-top: -30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: rgb(248, 10, 10);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: none;
+}
+.CreateEnglandCard1Button:focus{
+    transition: 0.3s;
+    color: black;
+}
+/* CreateEngland cards2 */
+.CreateEnglandCard2{
+    width: 550px;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+}
+.CreateEnglandCard2Img{
+    width: 100px;
+    height: 100px;
+
+}
+.CreateEnglandCard2Titles{
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 23px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateEnglandCard2Text2{
+    margin-top: 30px;
+    margin-left: -162px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateEnglandCard2result{
+    margin-top: -5px;
+    margin-left: 82px;
+    cursor: default;
+    font-size: 23px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.CreateEnglandCard2Button{
+    margin-left: 10px;
+    margin-top: -30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: rgb(248, 10, 10);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: none;
+}
+.CreateEnglandCard2Button:focus{
+    transition: 0.3s;
+    color: black;
+}
+
+/* CreateEngland cards3 */
+.CreateEnglandCard3{
+    width: 550px;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+}
+.CreateEnglandCard3Img{
+    width: 100px;
+    height: 100px;
+
+}
+.CreateEnglandCard3Titles{
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 23px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateEnglandCard3Text2{
+    margin-top: 30px;
+    margin-left: -115px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateEnglandCard3result{
+    margin-top: -5px;
+    margin-left: 110px;
+    cursor: default;
+    font-size: 23px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.CreateEnglandCard3Button{
+    margin-left: 10px;
+    margin-top: -30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: rgb(248, 10, 10);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: none;
+}
+.CreateEnglandCard3Button:focus{
+    transition: 0.3s;
+    color: black;
+}
+
+/* CreateEngland cards4 */
+.CreateEnglandCard4{
+    width: 550px;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+}
+.CreateEnglandCard4Img{
+    width: 100px;
+    height: 100px;
+
+}
+.CreateEnglandCard4Titles{
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 23px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateEnglandCard4Text2{
+    margin-top: 30px;
+    margin-left: -145px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateEnglandCard4result{
+    margin-top: -5px;
+    margin-left: 82px;
+    cursor: default;
+    font-size: 23px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.CreateEnglandCard4Button{
+    margin-left: 10px;
+    margin-top: -30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: rgb(248, 10, 10);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: none;
+}
+.CreateEnglandCard4Button:focus{
+    transition: 0.3s;
+    color: black;
+}
+
+/* CreateEngland cards5 */
+.CreateEnglandCard5{
+    width: 550px;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+}
+.CreateEnglandCard5Img{
+    width: 100px;
+    height: 100px;
+
+}
+.CreateEnglandCard5Titles{
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 23px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateEnglandCard5Text2{
+    margin-top: 30px;
+    margin-left: -125px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateEnglandCard5result{
+    margin-top: -5px;
+    margin-left: 135px;
+    cursor: default;
+    font-size: 23px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.CreateEnglandCard5Button{
+    margin-left: 10px;
+    margin-top: -30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: rgb(248, 10, 10);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: none;
+}
+.CreateEnglandCard5Button:focus{
+    transition: 0.3s;
+    color: black;
+}
+
+/* CreateEngland cards6 */
+.CreateEnglandCard6{
+    width: 550px;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+}
+.CreateEnglandCard6Img{
+    width: 100px;
+    height: 100px;
+
+}
+.CreateEnglandCard6Titles{
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 23px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateEnglandCard6Text2{
+    margin-top: 30px;
+    margin-left: -105px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateEnglandCard6result{
+    margin-top: -5px;
+    margin-left: 84px;
+    cursor: default;
+    font-size: 23px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.CreateEnglandCard6Button{
+    margin-left: 10px;
+    margin-top: -30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: rgb(248, 10, 10);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: none;
+}
+.CreateEnglandCard6Button:focus{
+    transition: 0.3s;
+    color: black;
+}
+/* create Card the Backet */
+/* Createfrance cards1 */
+.CreateFranceCard1{
+    width: 550px;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+}
+.CreateFranceCard1Img{
+    width: 100px;
+    height: 100px;
+
+}
+.CreateFranceCard1Titles{
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 23px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateFranceCard1Text2{
+    margin-top: 30px;
+    margin-left: -127px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateFranceCard1result{
+    margin-top: -5px;
+    margin-left: 140px;
+    cursor: default;
+    font-size: 23px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.CreateFranceCard1Button{
+    margin-left: 10px;
+    margin-top: -30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: rgb(248, 10, 10);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: none;
+}
+.CreateFranceCard1Button:focus{
+    transition: 0.3s;
+    color: black;
+}
+/* Createfrance cards2 */
+.CreateFranceCard2{
+    width: 550px;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+}
+.CreateFranceCard2Img{
+    width: 100px;
+    height: 100px;
+
+}
+.CreateFranceCard2Titles{
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 23px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateFranceCard2Text2{
+    margin-top: 35px;
+    margin-left: -160px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateFranceCard2result{
+    margin-top: -5px;
+    margin-left: 130px;
+    cursor: default;
+    font-size: 23px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.CreateFranceCard2Button{
+    margin-left: 10px;
+    margin-top: -30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: rgb(248, 10, 10);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: none;
+}
+.CreateFranceCard2Button:focus{
+    transition: 0.3s;
+    color: black;
+}
+/* Createfrance cards3 */
+.CreateFranceCard3{
+    width: 550px;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+}
+.CreateFranceCard3Img{
+    width: 100px;
+    height: 100px;
+
+}
+.CreateFranceCard3Titles{
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 23px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateFranceCard3Text2{
+    margin-top: 30px;
+    margin-left: -107px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateFranceCard3result{
+    margin-top: -5px;
+    margin-left: 83px;
+    cursor: default;
+    font-size: 23px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.CreateFranceCard3Button{
+    margin-left: 10px;
+    margin-top: -30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: rgb(248, 10, 10);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: none;
+}
+.CreateFranceCard3Button:focus{
+    transition: 0.3s;
+    color: black;
+}
+/* Createfrance cards4 */
+.CreateFranceCard4{
+    width: 550px;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+}
+.CreateFranceCard4Img{
+    width: 100px;
+    height: 100px;
+
+}
+.CreateFranceCard4Titles{
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 23px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateFranceCard4Text2{
+    margin-top: 30px;
+    margin-left: -43px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateFranceCard4result{
+    margin-top: -5px;
+    margin-left: 133px;
+    cursor: default;
+    font-size: 23px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.CreateFranceCard4Button{
+    margin-left: 10px;
+    margin-top: -30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: rgb(248, 10, 10);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: none;
+}
+.CreateFranceCard4Button:focus{
+    transition: 0.3s;
+    color: black;
+}
+/* Createfrance cards5 */
+.CreateFranceCard5{
+    width: 550px;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+}
+.CreateFranceCard5Img{
+    width: 100px;
+    height: 100px;
+
+}
+.CreateFranceCard5Titles{
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 23px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateFranceCard5Text2{
+    margin-top: 35px;
+    margin-left: -150px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateFranceCard5result{
+    margin-top: -5px;
+    margin-left: 80px;
+    cursor: default;
+    font-size: 23px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.CreateFranceCard5Button{
+    margin-left: 10px;
+    margin-top: -30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: rgb(248, 10, 10);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: none;
+}
+.CreateFranceCard5Button:focus{
+    transition: 0.3s;
+    color: black;
+}
+/* Createfrance cards6 */
+.CreateFranceCard6{
+    width: 550px;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+}
+.CreateFranceCard6Img{
+    width: 100px;
+    height: 100px;
+
+}
+.CreateFranceCard6Titles{
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 23px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateFranceCard6Text2{
+    margin-top: 35px;
+    margin-left: -155px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateFranceCard6result{
+    margin-top: -5px;
+    margin-left: 80px;
+    cursor: default;
+    font-size: 23px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.CreateFranceCard6Button{
+    margin-left: 10px;
+    margin-top: -30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: rgb(248, 10, 10);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: none;
+}
+.CreateFranceCard6Button:focus{
+    transition: 0.3s;
+    color: black;
+}
+/* create Card the Backet */
+/* CreateGermany cards1 */
+.CreateGermanyCard1{
+    width: 550px;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+}
+.CreateGermanyCard1Img{
+    width: 100px;
+    height: 100px;
+
+}
+.CreateGermanyCard1Titles{
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 23px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateGermanyCard1Text2{
+    margin-top: 30px;
+    margin-left: -122px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateGermanyCard1result{
+    margin-top: -5px;
+    margin-left: 80px;
+    cursor: default;
+    font-size: 23px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.CreateGermanyCard1Button{
+    margin-left: 10px;
+    margin-top: -30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: rgb(248, 10, 10);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: none;
+}
+.CreateGermanyCard1Button:focus{
+    transition: 0.3s;
+    color: black;
+}
+/* CreateGermany cards2 */
+.CreateGermanyCard2{
+    width: 550px;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+}
+.CreateGermanyCard2Img{
+    width: 100px;
+    height: 100px;
+
+}
+.CreateGermanyCard2Titles{
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 23px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateGermanyCard2Text2{
+    margin-top: 30px;
+    margin-left: -78px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateGermanyCard2result{
+    margin-top: -5px;
+    margin-left: 143px;
+    cursor: default;
+    font-size: 23px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.CreateGermanyCard2Button{
+    margin-left: 10px;
+    margin-top: -30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: rgb(248, 10, 10);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: none;
+}
+.CreateGermanyCard2Button:focus{
+    transition: 0.3s;
+    color: black;
+}
+/* CreateGermany cards3 */
+.CreateGermanyCard3{
+    width: 550px;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+}
+.CreateGermanyCard3Img{
+    width: 100px;
+    height: 100px;
+
+}
+.CreateGermanyCard3Titles{
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 23px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateGermanyCard3Text2{
+    margin-top: 30px;
+    margin-left: -140px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateGermanyCard3result{
+    margin-top: -5px;
+    margin-left: 82px;
+    cursor: default;
+    font-size: 23px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.CreateGermanyCard3Button{
+    margin-left: 10px;
+    margin-top: -30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: rgb(248, 10, 10);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: none;
+}
+.CreateGermanyCard3Button:focus{
+    transition: 0.3s;
+    color: black;
+}
+/* CreateGermany cards4 */
+.CreateGermanyCard4{
+    width: 550px;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+}
+.CreateGermanyCard4Img{
+    width: 100px;
+    height: 100px;
+
+}
+.CreateGermanyCard4Titles{
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 23px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateGermanyCard4Text2{
+    margin-top: 30px;
+    margin-left: -120px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateGermanyCard4result{
+    margin-top: -5px;
+    margin-left: 82px;
+    cursor: default;
+    font-size: 23px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.CreateGermanyCard4Button{
+    margin-left: 10px;
+    margin-top: -30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: rgb(248, 10, 10);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: none;
+}
+.CreateGermanyCard4Button:focus{
+    transition: 0.3s;
+    color: black;
+}
+/* CreateGermany cards5 */
+.CreateGermanyCard5{
+    width: 550px;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+}
+.CreateGermanyCard5Img{
+    width: 100px;
+    height: 100px;
+
+}
+.CreateGermanyCard5Titles{
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 23px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateGermanyCard5Text2{
+    margin-top: 30px;
+    margin-left: -60px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateGermanyCard5result{
+    margin-top: -5px;
+    margin-left: 132px;
+    cursor: default;
+    font-size: 23px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.CreateGermanyCard5Button{
+    margin-left: 10px;
+    margin-top: -30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: rgb(248, 10, 10);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: none;
+}
+.CreateGermanyCard5Button:focus{
+    transition: 0.3s;
+    color: black;
+}
+/* CreateGermany cards6 */
+.CreateGermanyCard6{
+    width: 550px;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+}
+.CreateGermanyCard6Img{
+    width: 100px;
+    height: 100px;
+
+}
+.CreateGermanyCard6Titles{
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 23px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateGermanyCard6Text2{
+    margin-top: 30px;
+    margin-left: -140px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateGermanyCard6result{
+    margin-top: -5px;
+    margin-left: 132px;
+    cursor: default;
+    font-size: 23px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.CreateGermanyCard6Button{
+    margin-left: 10px;
+    margin-top: -30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: rgb(248, 10, 10);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: none;
+}
+.CreateGermanyCard6Button:focus{
+    transition: 0.3s;
+    color: black;
+}
+.EnglandDiv{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 800px 800px;
+}
+/* England cards1 */
+.EnglandCard1{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(225, 237, 230, 1);
+    width: 310px;
+    height: 730px;
+}
+.EnglandCard1Text{
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard1Titles{
+    margin-top: -5px;
+    font-size: 30px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard1Text2{
+    margin-top: -30px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard1result{
+    cursor: default;
+    font-size: 24px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.EnglandCard1Button{
+    width: 310px;
+    cursor: pointer;
+    color: rgba(89, 141, 102, 1);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: 1px solid rgba(89, 141, 102, 1);
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+.EnglandCard1Button:hover{
+    transition: 0.3s;
+    color: #fff;
+    background: var(--colors-2);
+}
+.EnglandCard1Button:focus{
+    transition: 0.3s;
+    background: var(--colors-2);
+    color: var(--colors-1);
+}
+
+
+/* England cards2 */
+.EnglandCard2{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(225, 237, 230, 1);
+    width: 310px;
+    height: 730px;
+}
+.EnglandCard2Text{
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard2Titles{
+    margin-top: -5px;
+    font-size: 30px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard2Text2{
+    margin-top: -30px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard2result{
+    cursor: default;
+    font-size: 24px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.EnglandCard2Button{
+    width: 310px;
+    cursor: pointer;
+    color: rgba(89, 141, 102, 1);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: 1px solid rgba(89, 141, 102, 1);
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+.EnglandCard2Button:hover{
+    transition: 0.3s;
+    color: #fff;
+    background: var(--colors-2);
+}
+.EnglandCard2Button:focus{
+    transition: 0.3s;
+    background: var(--colors-2);
+    color: var(--colors-1);
+}
+
+
+/* England cards3 */
+.EnglandCard3{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(225, 237, 230, 1);
+    width: 310px;
+    height: 730px;
+}
+.EnglandCard3Text{
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard3Titles{
+    margin-top: -5px;
+    font-size: 30px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard3Text2{
+    margin-top: -30px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard3result{
+    cursor: default;
+    font-size: 24px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.EnglandCard3Button{
+    width: 310px;
+    cursor: pointer;
+    color: rgba(89, 141, 102, 1);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: 1px solid rgba(89, 141, 102, 1);
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+.EnglandCard3Button:hover{
+    transition: 0.3s;
+    color: #fff;
+    background: var(--colors-2);
+}
+.EnglandCard3Button:focus{
+    transition: 0.3s;
+    background: var(--colors-2);
+    color: var(--colors-1);
+}
+
+
+/* England cards4 */
+.EnglandCard4{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(225, 237, 230, 1);
+    width: 310px;
+    height: 730px;
+}
+.EnglandCard4Text{
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard4Titles{
+    margin-top: -5px;
+    font-size: 30px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard4Text2{
+    margin-top: -30px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard4result{
+    cursor: default;
+    font-size: 24px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.EnglandCard4Button{
+    width: 310px;
+    cursor: pointer;
+    color: rgba(89, 141, 102, 1);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: 1px solid rgba(89, 141, 102, 1);
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+.EnglandCard4Button:hover{
+    transition: 0.3s;
+    color: #fff;
+    background: var(--colors-2);
+}
+.EnglandCard4Button:focus{
+    transition: 0.3s;
+    background: var(--colors-2);
+    color: var(--colors-1);
+}
+
+
+/* England cards5 */
+.EnglandCard5{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(225, 237, 230, 1);
+    width: 310px;
+    height: 730px;
+}
+.EnglandCard5Text{
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard5Titles{
+    margin-top: -5px;
+    font-size: 30px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard5Text2{
+    margin-top: -30px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard5result{
+    cursor: default;
+    font-size: 24px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.EnglandCard5Button{
+    width: 310px;
+    cursor: pointer;
+    color: rgba(89, 141, 102, 1);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: 1px solid rgba(89, 141, 102, 1);
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+.EnglandCard5Button:hover{
+    transition: 0.3s;
+    color: #fff;
+    background: var(--colors-2);
+}
+.EnglandCard5Button:focus{
+    transition: 0.3s;
+    background: var(--colors-2);
+    color: var(--colors-1);
+}
+
+
+/* England cards6*/
+.EnglandCard6{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(225, 237, 230, 1);
+    width: 310px;
+    height: 730px;
+}
+.EnglandCard6Text{
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard6Titles{
+    margin-top: -5px;
+    font-size: 30px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard6Text2{
+    margin-top: -30px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.EnglandCard6result{
+    cursor: default;
+    font-size: 24px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.EnglandCard6Button{
+    width: 310px;
+    cursor: pointer;
+    color: rgba(89, 141, 102, 1);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: 1px solid rgba(89, 141, 102, 1);
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+.EnglandCard6Button:hover{
+    transition: 0.3s;
+    color: #fff;
+    background: var(--colors-2);
+}
+.EnglandCard6Button:focus{
+    transition: 0.3s;
+    background: var(--colors-2);
+    color: var(--colors-1);
+}
+.GermanyDiv{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 800px 800px;
+}
+/* Germany cards1 */
+.GermanyCard1{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(225, 237, 230, 1);
+    width: 310px;
+    height: 730px;
+}
+.GermanyCard1Text{
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: default;
+}
+.GermanyCard1Titles{
+    margin-top: -5px;
+    font-size: 30px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.GermanyCard1Text2{
+    margin-top: -30px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.GermanyCard1result{
+    cursor: default;
+    font-size: 24px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.GermanyCard1Button{
+    width: 310px;
+    cursor: pointer;
+    color: rgba(89, 141, 102, 1);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: 1px solid rgba(89, 141, 102, 1);
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+.GermanyCard1Button:hover{
+    transition: 0.3s;
+    color: #fff;
+    background: var(--colors-2);
+}
+.GermanyCard1Button:focus{
+    transition: 0.3s;
+    background: var(--colors-2);
+    color: var(--colors-1);
+}
+
+
+/* Germany cards2 */
+.GermanyCard2{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(225, 237, 230, 1);
+    width: 310px;
+    height: 730px;
+}
+.GermanyCard2Text{
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: default;
+}
+.GermanyCard2Titles{
+    margin-top: -5px;
+    font-size: 30px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.GermanyCard2Text2{
+    margin-top: -30px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.GermanyCard2result{
+    cursor: default;
+    font-size: 24px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.GermanyCard2Button{
+    width: 310px;
+    cursor: pointer;
+    color: rgba(89, 141, 102, 1);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: 1px solid rgba(89, 141, 102, 1);
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+.GermanyCard2Button:hover{
+    transition: 0.3s;
+    color: #fff;
+    background: var(--colors-2);
+}
+.GermanyCard2Button:focus{
+    transition: 0.3s;
+    background: var(--colors-2);
+    color: var(--colors-1);
+}
+
+
+/* Germany cards3 */
+.GermanyCard3{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(225, 237, 230, 1);
+    width: 310px;
+    height: 730px;
+}
+.GermanyCard3Text{
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: default;
+}
+.GermanyCard3Titles{
+    margin-top: -5px;
+    font-size: 30px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.GermanyCard3Text2{
+    margin-top: -30px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.GermanyCard3result{
+    cursor: default;
+    font-size: 24px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.GermanyCard3Button{
+    width: 310px;
+    cursor: pointer;
+    color: rgba(89, 141, 102, 1);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: 1px solid rgba(89, 141, 102, 1);
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+.GermanyCard3Button:hover{
+    transition: 0.3s;
+    color: #fff;
+    background: var(--colors-2);
+}
+.GermanyCard3Button:focus{
+    transition: 0.3s;
+    background: var(--colors-2);
+    color: var(--colors-1);
+}
+
+
+/* Germany cards4 */
+.GermanyCard4{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(225, 237, 230, 1);
+    width: 310px;
+    height: 730px;
+}
+.GermanyCard4Text{
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: default;
+}
+.GermanyCard4Titles{
+    margin-top: -5px;
+    font-size: 30px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.GermanyCard4Text2{
+    margin-top: -30px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.GermanyCard4result{
+    cursor: default;
+    font-size: 24px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.GermanyCard4Button{
+    width: 310px;
+    cursor: pointer;
+    color: rgba(89, 141, 102, 1);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: 1px solid rgba(89, 141, 102, 1);
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+.GermanyCard4Button:hover{
+    transition: 0.3s;
+    color: #fff;
+    background: var(--colors-2);
+}
+.GermanyCard4Button:focus{
+    transition: 0.3s;
+    background: var(--colors-2);
+    color: var(--colors-1);
+}
+
+
+/* Germany cards5 */
+.GermanyCard5{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(225, 237, 230, 1);
+    width: 310px;
+    height: 730px;
+}
+.GermanyCard5Text{
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: default;
+}
+.GermanyCard5Titles{
+    margin-top: -5px;
+    font-size: 30px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.GermanyCard5Text2{
+    margin-top: -30px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.GermanyCard5result{
+    cursor: default;
+    font-size: 24px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.GermanyCard5Button{
+    width: 310px;
+    cursor: pointer;
+    color: rgba(89, 141, 102, 1);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: 1px solid rgba(89, 141, 102, 1);
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+.GermanyCard5Button:hover{
+    transition: 0.3s;
+    color: #fff;
+    background: var(--colors-2);
+}
+.GermanyCard5Button:focus{
+    transition: 0.3s;
+    background: var(--colors-2);
+    color: var(--colors-1);
+}
+
+
+/* Germany cards6*/
+.GermanyCard6{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(225, 237, 230, 1);
+    width: 310px;
+    height: 730px;
+}
+.GermanyCard6Text{
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: default;
+}
+.GermanyCard6Titles{
+    margin-top: -5px;
+    font-size: 30px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.GermanyCard6Text2{
+    margin-top: -30px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.GermanyCard6result{
+    cursor: default;
+    font-size: 24px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.GermanyCard6Button{
+    width: 310px;
+    cursor: pointer;
+    color: rgba(89, 141, 102, 1);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: 1px solid rgba(89, 141, 102, 1);
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+.GermanyCard6Button:hover{
+    transition: 0.3s;
+    color: #fff;
+    background: var(--colors-2);
+}
+.GermanyCard6Button:focus{
+    transition: 0.3s;
+    background: var(--colors-2);
+    color: var(--colors-1);
+}
+.productDiv{
+    margin-top: 150px;
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-top: 3px;
+}
+.nav-tabs{
+    margin-top: -50px;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-bottom: 40px;
+    display: flex;
+  }
+  .nav-tab{
+    transform: translateX(-160px);
+    font-weight: 500;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding:10px;
+    border-radius: 20px;
+    background: rgba(225, 237, 230, 1);
+    border: 1px solid rgba(225, 237, 230, 1);
+  }
+  .nav-tab:hover{
+    transition: 0.3s;
+    border: 1px solid rgba(89, 141, 102, 1);
+  }
+  .nav-tab.active{
+    color: #fff;
+    border: 1px solid rgba(89, 141, 102, 1);
+    background: rgba(89, 141, 102, 1);
+    cursor: pointer;               
+  }
+  .tab-pane{
+    display: none;
+  }
+  .tab-pane.active{
+    display: grid;
+  }
+  .productTitle{
+    font-size: 40px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    margin-top: 50px;
+    cursor: default;
+    border: none;
+  }
+  .productsTitles{
+    width: 230px;
+    margin-top: 70px;
+  }
+.FranceDiv{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 800px 800px;
+}
+/* france cards1 */
+.FranceCard1{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(225, 237, 230, 1);
+    width: 310px;
+    height: 730px;
+}
+.FranceCard1Text{
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: default;
+}
+.FranceCard1Titles{
+    margin-top: -5px;
+    font-size: 30px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.FranceCard1Text2{
+    margin-top: -30px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.FranceCard1result{
+    cursor: default;
+    font-size: 24px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.FranceCard1Button{
+    width: 310px;
+    cursor: pointer;
+    color: rgba(89, 141, 102, 1);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: 1px solid rgba(89, 141, 102, 1);
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+.FranceCard1Button:hover{
+    transition: 0.3s;
+    color: #fff;
+    background: var(--colors-2);
+}
+.FranceCard1Button:focus{
+    transition: 0.3s;
+    background: var(--colors-2);
+    color: var(--colors-1);
+}
+
+
+/* france cards2 */
+.FranceCard2{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(225, 237, 230, 1);
+    width: 310px;
+    height: 730px;
+}
+.FranceCard2Text{
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: default;
+}
+.FranceCard2Titles{
+    margin-top: -5px;
+    font-size: 30px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.FranceCard2Text2{
+    margin-top: -30px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.FranceCard2result{
+    cursor: default;
+    font-size: 24px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.FranceCard2Button{
+    width: 310px;
+    cursor: pointer;
+    color: rgba(89, 141, 102, 1);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: 1px solid rgba(89, 141, 102, 1);
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+.FranceCard2Button:hover{
+    transition: 0.3s;
+    color: #fff;
+    background: var(--colors-2);
+}
+.FranceCard2Button:focus{
+    transition: 0.3s;
+    background: var(--colors-2);
+    color: var(--colors-1);
+}
+
+
+/* france cards3 */
+.FranceCard3{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(225, 237, 230, 1);
+    width: 310px;
+    height: 730px;
+}
+.FranceCard3Text{
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: default;
+}
+.FranceCard3Titles{
+    margin-top: -5px;
+    font-size: 30px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.FranceCard3Text2{
+    margin-top: -30px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.FranceCard3result{
+    cursor: default;
+    font-size: 24px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.FranceCard3Button{
+    width: 310px;
+    cursor: pointer;
+    color: rgba(89, 141, 102, 1);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: 1px solid rgba(89, 141, 102, 1);
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+.FranceCard3Button:hover{
+    transition: 0.3s;
+    color: #fff;
+    background: var(--colors-2);
+}
+.FranceCard3Button:focus{
+    transition: 0.3s;
+    background: var(--colors-2);
+    color: var(--colors-1);
+}
+
+
+/* france cards4 */
+.FranceCard4{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(225, 237, 230, 1);
+    width: 310px;
+    height: 730px;
+}
+.FranceCard4Text{
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: default;
+}
+.FranceCard4Titles{
+    margin-top: -5px;
+    font-size: 30px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.FranceCard4Text2{
+    margin-top: -30px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.FranceCard4result{
+    cursor: default;
+    font-size: 24px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.FranceCard4Button{
+    width: 310px;
+    cursor: pointer;
+    color: rgba(89, 141, 102, 1);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: 1px solid rgba(89, 141, 102, 1);
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+.FranceCard4Button:hover{
+    transition: 0.3s;
+    color: #fff;
+    background: var(--colors-2);
+}
+.FranceCard4Button:focus{
+    transition: 0.3s;
+    background: var(--colors-2);
+    color: var(--colors-1);
+}
+
+
+/* france cards5 */
+.FranceCard5{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(225, 237, 230, 1);
+    width: 310px;
+    height: 730px;
+}
+.FranceCard5Text{
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: default;
+}
+.FranceCard5Titles{
+    margin-top: -5px;
+    font-size: 30px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.FranceCard5Text2{
+    margin-top: -30px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.FranceCard5result{
+    cursor: default;
+    font-size: 24px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.FranceCard5Button{
+    width: 310px;
+    cursor: pointer;
+    color: rgba(89, 141, 102, 1);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: 1px solid rgba(89, 141, 102, 1);
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+.FranceCard5Button:hover{
+    transition: 0.3s;
+    color: #fff;
+    background: var(--colors-2);
+}
+.FranceCard5Button:focus{
+    transition: 0.3s;
+    background: var(--colors-2);
+    color: var(--colors-1);
+}
+
+
+/* france cards6*/
+.FranceCard6{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(225, 237, 230, 1);
+    width: 310px;
+    height: 730px;
+}
+.FranceCard6Text{
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: default;
+}
+.FranceCard6Titles{
+    margin-top: -5px;
+    font-size: 30px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.FranceCard6Text2{
+    margin-top: -30px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.FranceCard6result{
+    cursor: default;
+    font-size: 24px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.FranceCard6Button{
+    width: 310px;
+    cursor: pointer;
+    color: rgba(89, 141, 102, 1);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: 1px solid rgba(89, 141, 102, 1);
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+.FranceCard6Button:hover{
+    transition: 0.3s;
+    color: #fff;
+    background: var(--colors-2);
+}
+.FranceCard6Button:focus{
+    transition: 0.3s;
+    background: var(--colors-2);
+    color: var(--colors-1);
+}
