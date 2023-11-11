@@ -1,0 +1,337 @@
+/* create Card the Backet */
+/* Createfrance cards1 */
+.CreateFranceCard1{
+    width: 550px;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+}
+.CreateFranceCard1Img{
+    width: 100px;
+    height: 100px;
+
+}
+.CreateFranceCard1Titles{
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 23px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateFranceCard1Text2{
+    margin-top: 30px;
+    margin-left: -127px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateFranceCard1result{
+    margin-top: -5px;
+    margin-left: 140px;
+    cursor: default;
+    font-size: 23px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.CreateFranceCard1Button{
+    margin-left: 10px;
+    margin-top: -30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: rgb(248, 10, 10);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: none;
+}
+.CreateFranceCard1Button:focus{
+    transition: 0.3s;
+    color: black;
+}
+/* Createfrance cards2 */
+.CreateFranceCard2{
+    width: 550px;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+}
+.CreateFranceCard2Img{
+    width: 100px;
+    height: 100px;
+
+}
+.CreateFranceCard2Titles{
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 23px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateFranceCard2Text2{
+    margin-top: 35px;
+    margin-left: -160px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateFranceCard2result{
+    margin-top: -5px;
+    margin-left: 130px;
+    cursor: default;
+    font-size: 23px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.CreateFranceCard2Button{
+    margin-left: 10px;
+    margin-top: -30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: rgb(248, 10, 10);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: none;
+}
+.CreateFranceCard2Button:focus{
+    transition: 0.3s;
+    color: black;
+}
+/* Createfrance cards3 */
+.CreateFranceCard3{
+    width: 550px;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+}
+.CreateFranceCard3Img{
+    width: 100px;
+    height: 100px;
+
+}
+.CreateFranceCard3Titles{
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 23px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateFranceCard3Text2{
+    margin-top: 30px;
+    margin-left: -107px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateFranceCard3result{
+    margin-top: -5px;
+    margin-left: 83px;
+    cursor: default;
+    font-size: 23px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.CreateFranceCard3Button{
+    margin-left: 10px;
+    margin-top: -30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: rgb(248, 10, 10);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: none;
+}
+.CreateFranceCard3Button:focus{
+    transition: 0.3s;
+    color: black;
+}
+/* Createfrance cards4 */
+.CreateFranceCard4{
+    width: 550px;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+}
+.CreateFranceCard4Img{
+    width: 100px;
+    height: 100px;
+
+}
+.CreateFranceCard4Titles{
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 23px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateFranceCard4Text2{
+    margin-top: 30px;
+    margin-left: -43px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateFranceCard4result{
+    margin-top: -5px;
+    margin-left: 133px;
+    cursor: default;
+    font-size: 23px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.CreateFranceCard4Button{
+    margin-left: 10px;
+    margin-top: -30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: rgb(248, 10, 10);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: none;
+}
+.CreateFranceCard4Button:focus{
+    transition: 0.3s;
+    color: black;
+}
+/* Createfrance cards5 */
+.CreateFranceCard5{
+    width: 550px;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+}
+.CreateFranceCard5Img{
+    width: 100px;
+    height: 100px;
+
+}
+.CreateFranceCard5Titles{
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 23px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateFranceCard5Text2{
+    margin-top: 35px;
+    margin-left: -150px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateFranceCard5result{
+    margin-top: -5px;
+    margin-left: 80px;
+    cursor: default;
+    font-size: 23px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.CreateFranceCard5Button{
+    margin-left: 10px;
+    margin-top: -30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: rgb(248, 10, 10);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: none;
+}
+.CreateFranceCard5Button:focus{
+    transition: 0.3s;
+    color: black;
+}
+/* Createfrance cards6 */
+.CreateFranceCard6{
+    width: 550px;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+}
+.CreateFranceCard6Img{
+    width: 100px;
+    height: 100px;
+
+}
+.CreateFranceCard6Titles{
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 23px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateFranceCard6Text2{
+    margin-top: 35px;
+    margin-left: -155px;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    cursor: default;
+}
+.CreateFranceCard6result{
+    margin-top: -5px;
+    margin-left: 80px;
+    cursor: default;
+    font-size: 23px;
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+}
+.CreateFranceCard6Button{
+    margin-left: 10px;
+    margin-top: -30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: rgb(248, 10, 10);
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: none;
+}
+.CreateFranceCard6Button:focus{
+    transition: 0.3s;
+    color: black;
+}
+@media(max-width:360px){
+    .CreateFranceCard3Text2{
+        font-size: 12px;
+        margin-left: -92px
+    }
+    .CreateFranceCard3Titles{
+        font-size: 20px;
+    }
+    .CreateFranceCard3result{
+        margin-left: 153px;
+    }
+}
